@@ -1,0 +1,222 @@
+
+
+{
+  "Fig_2b": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 1.6e9,
+        "unit": "M^-1 s^-1",
+        "description": "1, 10, 50, 100 times, see Fig. 2b"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 24,
+        "unit": "s^-1",
+        "description": "1, 10, 50, 100 times, see Fig. 2c"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 6.34e-5,
+        "unit": "M",
+        "description": "1, 10, 50, 100 times, see Fig. 2c"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 40,
+        "unit": "μm^2 s^-1",
+        "description": "1, 10, 50, 100 times, see Fig. 2d"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 1.328e-8,
+        "unit": "M"
+      }
+    }
+  },
+  "Fig_2f": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 1.6e10,
+        "unit": "M^-1 s^-1",
+        "description": "Increase 10 times from baseline"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 2.4,
+        "unit": "s^-1",
+        "description": "Decrease 10 times from baseline"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 12.68e-5,
+        "unit": "M",
+        "description": "Increase 2 times from baseline"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 40,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 1.328e-8,
+        "unit": "M"
+      }
+    }
+  }, 
+
+  "Fig_2h": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 1.6e11
+        "unit": "M^-1 s^-1",
+        "description": "Increase 10 times from baseline"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 24,
+        "unit": "s^-1",
+        "description": "Decrease 10 times from baseline"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 6.34e-5,
+        "unit": "M",
+        "description": "Increase 2 times from baseline"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 40,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 1.328e-8,
+        "unit": "M"
+      }
+    }
+  }, 
+
+  "Fig_2i": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 1.6e9
+        "unit": "M^-1 s^-1",
+        "description": "Increase 10 times from baseline"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 24,
+        "unit": "s^-1",
+        "description": "Decrease 10 times from baseline"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 6.34e-5,
+        "unit": "M",
+        "description": "Increase 2 times from baseline"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 0.01,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 1.328e-8,
+        "unit": "M"
+      }
+    }
+  }, 
+  
+  "Fig_8c_igG": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 7.68e6
+        "unit": "M^-1 s^-1",
+        "description": "Increase 10 times from baseline"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 1.74e-5,
+        "unit": "s^-1",
+        "description": "Decrease 10 times from baseline"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 3.17e-6,
+        "unit": "M",
+        "description": "Increase 2 times from baseline"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 40,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 7.69e-10,
+        "unit": "M"
+      }
+    }
+  }, 
+   
+   "Fig_8c_nanobody": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 7.68e5
+        "unit": "M^-1 s^-1",
+        "description": "Increase 10 times from baseline"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 1.74e-4,
+        "unit": "s^-1",
+        "description": "Decrease 10 times from baseline"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 3.17e-5,
+        "unit": "M",
+        "description": "Increase 2 times from baseline"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 200,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 7.69e-10,
+        "unit": "M"
+      }
+    }
+  }
+
+}
+
+
