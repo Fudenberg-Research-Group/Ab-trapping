@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="figures/Schematic1.png" alt="Alt text">
-  <p><em>Figure 1: A schematic of the antibody reaction-diffusion model.</em></p>
+  <p><em>Figure 1: A schematic of the experimental protocol and the step of antibody staining.</em></p>
 </div>
 
 ## 📁 Folder Contents  
@@ -41,7 +41,10 @@ $$
 
 The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial conditions, antigen was uniformly distributed in a sphere of radius $R_0=5 \mu m$ at concentration $c_B$; antibodies were distributed outside of this sphere in a concentric shell of $R_1=75 \mu m$  at concentration $c_A$. The intial concentration profiles were also smoothed. Details see Computational Methods of the draft. 
 
-![Alt text](figures/Schematic2.png)
+<div align="center">
+  <img src="figures/Schematic2.png" alt="Alt text">
+  <p><em>Figure 1: A schematic of the reaction diffusion model of antibody staining.</em></p>
+</div>
 
 The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). 
 
@@ -96,7 +99,10 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
 
 
-![Alt text](figures/nanobody_IgG.png)
+<div align="center">
+  <img src="figures/nanobody_IgG.png" alt="Alt text">
+  <p><em>Figure 3: Schematic of nanobody and IgG.</em></p>
+</div>
 
 
 ### Parameters for Extended Data Figure 8 c IgG 
