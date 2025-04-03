@@ -11,7 +11,8 @@
 
 - **`antibody_simulation.jl`** – Main simulation script implementing the reaction-diffusion model.  
 - **`result_visualization.ipynb`** – Jupyter notebook for visualizing and analyzing simulation results.  
-- **`antibody_RD_tutorial.ipynb`** – Tutorial notebook explaining the reaction-diffusion model and how to run the simulation.  
+- **`data/parameters.json`**:  
+  Contains the simulation parameters in JSON format.
 
 ## ⚙️ Installation & Dependencies  
 
@@ -24,7 +25,7 @@ After installing Julia, you'll need to install the necessary dependencies for th
 
 ```julia
 using Pkg
-Pkg.add(["MKL", "DifferentialEquations", "Symbolics", "Peaks", "CSV", "DataFrames", "JSON", "StatsBase"])
+Pkg.add(["MKL", "DifferentialEquations", "Symbolics", "Peaks", "CSV", "DataFrames", "JSON", "StatsBase", "Colors", "GLMakie", "Plots",  "Interpolations"])
 ```
 
 ## 
