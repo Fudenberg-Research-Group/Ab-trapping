@@ -110,11 +110,11 @@ u2_const = 6.34e-5
 u_init = init_concentration_3D_spherical_smoothed(rgrid, epsilon, u1_const, u2_const, R0)
 
 X = u_init
-dX = similar(X)
+# dX = similar(X)
 
 # Define ODEProblem
 t_end = 3600
-savedt = 10
+save_timestep = 10
 
 # Create ODE problem
 ode_prob = ODEProblem(
@@ -128,7 +128,7 @@ ode_prob = ODEProblem(
 solver = Rodas5P()
 
 # Solve the ODE problem
-diffuse_spherical_sol = solve(ode_prob, solver, saveat=savedt)
+diffuse_spherical_sol = solve(ode_prob, solver, saveat = save_timestep)
 # Check results
 println("Simulation completed.")
 println(size(diffuse_spherical_sol))  # Should include time dimension
