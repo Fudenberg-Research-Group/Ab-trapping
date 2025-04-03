@@ -15,7 +15,9 @@ N_r = 7500      # Number of radial grid points
 rgrid = range(0, stop=r_limit, length=N_r)
 dr = step(rgrid)
 mat_div = radial_laplacian_3d_Neumann(N_r, r_limit)
+## smooth parameter for the init concentration field
 epsilon = 0.2
+## Radius of the nuclues in simulations
 R0 = 5
 
 ## Parameters changed in simulations 
@@ -23,13 +25,13 @@ R0 = 5
 D = 40
 k_on = 1.6e9
 k_off = 24
-ps_temp = (D, k_on, k_off)
-u1_const = 1.328e-8
-u2_const = 6.34e-5
+c_a_const = 1.328e-8
+c_b_const = 6.34e-5
 
+ps_temp = (D, k_on, k_off)
 
 # Setup initial concentration vector
-u_init = init_concentration_3D_spherical_smoothed(rgrid, epsilon, u1_const, u2_const, R0)
+u_init = init_concentration_3D_spherical_smoothed(rgrid, epsilon, c_a_const, c_b_const, R0)
 
 # X = u_init
 # dX = similar(X)
