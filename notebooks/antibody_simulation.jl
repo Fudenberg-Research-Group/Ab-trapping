@@ -1,11 +1,11 @@
-
 using MKL 
 using DifferentialEquations, LinearAlgebra, SparseArrays, Symbolics, Peaks;
 using CSV,DataFrames,JSON
 using StatsBase
 using SparseArrays
+using JSON
 include("utils.jl");
-import json 
+
 
 # Set parameters
 
@@ -20,14 +20,12 @@ epsilon = 0.2
 ## Radius of the nuclues in simulations
 R0 = 5
 
-
 ## Parameters changed in simulations,
 ## Can choose difference figures for the parameters
 # Define diffusion parameters
 # Load data from parameters.json
-with open('parameters.json', 'r') as file:
-    data = json.load(file)
-    
+data = JSON.parsefile("parameters.json")
+
 figure_paras = data["Fig_2b"]
 D = figure_paras["Diffusion_Constant"]["D_a"]["value"]
 k_on = figure_paras["Association_Rate"]["k_on"]["value"]
