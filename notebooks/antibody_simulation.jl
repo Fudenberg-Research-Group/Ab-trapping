@@ -5,7 +5,7 @@ using CSV,DataFrames,JSON
 using StatsBase
 using SparseArrays
 include("utils.jl");
-
+import json 
 
 # Set parameters
 
@@ -20,13 +20,21 @@ epsilon = 0.2
 ## Radius of the nuclues in simulations
 R0 = 5
 
-## Parameters changed in simulations 
+
+## Parameters changed in simulations,
+## Can choose difference figures for the parameters
 # Define diffusion parameters
-D = 40
-k_on = 1.6e9
-k_off = 24
-c_a_const = 1.328e-8
-c_b_const = 6.34e-5
+# Load data from parameters.json
+with open('parameters.json', 'r') as file:
+    data = json.load(file)
+    
+figure_paras = data["Fig_2b"]
+D = figure_paras["Diffusion_Constant"]["D_a"]["value"]
+k_on = figure_paras["Association_Rate"]["k_on"]["value"]
+k_off = figure_paras["Dissociation_Rate"]["k_off"]["value"]
+c_a_const = figure_paras["Antibody_Concentration"]["c_a"]["value"]
+c_b_const = figure_paras["Epitope_Concentration"]["c_b"]["value"]
+
 
 ps_temp = (D, k_on, k_off)
 
