@@ -4,7 +4,7 @@
 # Simulation Code for Draft Ab-trapping - a peripheral staining artifact in antibody-based microscopy and genomics
 
 
-![Alt text](Schematic1.png)
+![Alt text](figures/Schematic1.png)
 
 
 ## 📁 Folder Contents  
@@ -38,7 +38,7 @@ $$
 
 The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial conditions, antigen was uniformly distributed in a sphere of radius $R_0=5 \mu m$ at concentration $c_B$; antibodies were distributed outside of this sphere in a concentric shell of $R_1=75 \mu m$  at concentration $c_A$. The intial concentration profiles were also smoothed. Details see Computational Methods of the draft. 
 
-![Alt text](Schematic2.png)
+![Alt text](figures/Schematic2.png)
 
 
 ### Parameters for Fig. 2b
@@ -75,7 +75,7 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
 ### Parameters for Fig. 2h
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
-| **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^11$ $M^{-1}s^{-1}$ |Increase 100 times from baseline|
+| **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^{11}$ $M^{-1}s^{-1}$ |Increase 100 times from baseline|
 | **Dssociation Rate**   | $k_{\text{off}} = 24$ $s^{-1}$   | |
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | |
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
