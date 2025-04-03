@@ -63,7 +63,6 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
 
 
-
 ### Parameters for Fig. 2g
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
@@ -83,6 +82,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
 
+
 ### Parameters for Fig. 2i 
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
@@ -93,6 +93,9 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
 
 
+![Alt text](figures/nanobody_IgG.png)
+
+
 ### Parameters for Extended Data Figure 8 c IgG 
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
@@ -101,6 +104,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 3.17 \times 10^{-6}$ $M$   | 1, 10 times |
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 7.69 \times 10^{-10}$ $M$   | |
+
 
 ### Parameters for Extended Data Figure 8 c Nanobody
 | **Parameter**| **Value**| **Description**|
