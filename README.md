@@ -40,7 +40,7 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
 
 ![Alt text](figures/Schematic2.png)
 
-The solver used in this project is Rosa5P which is . For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). 
+The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). 
 
 
 ### Parameters for Fig. 2b
