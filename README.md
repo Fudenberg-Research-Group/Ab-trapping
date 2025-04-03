@@ -4,8 +4,10 @@
 # Simulation Code for Draft Ab-trapping - a peripheral staining artifact in antibody-based microscopy and genomics
 
 
-![Alt text](figures/Schematic1.png)
-
+<div align="center">
+  <img src="figures/Schematic1.png" alt="Alt text">
+  <p><em>Figure 1: A schematic of the antibody reaction-diffusion model.</em></p>
+</div>
 
 ## 📁 Folder Contents  
 
