@@ -49,7 +49,7 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
 The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). 
 
 
-### Parameters for Fig. 2b
+### Parameters for Fig. 2b-e
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
 | **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^9$ $M^{-1}s^{-1}$ | 1, 10, 50, 100 times, see Fig. 2b|
@@ -57,6 +57,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | 1, 10, 50, 100 times, see Fig. 2c|
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | 1, 10, 50, 100 times, see Fig. 2d|
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
+| **Simulation Time** | 1800 $s$ | |
 
 
 ### Parameters for Fig. 2f
@@ -67,6 +68,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 12.68 \times 10^{-5}$ $M$   | Increase 2 times from baseline|
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
+| **Simulation Time** | 1800 $s$ | |
 
 
 ### Parameters for Fig. 2g
@@ -77,6 +79,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | |
 | **Diffusion Constant**   |  $D_{a} = 3$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
+| **Simulation Time** | 1800 $s$ | |
 
 
 ### Parameters for Fig. 2h
@@ -87,6 +90,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | |
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
+| **Simulation Time** | 72 $h$ | |
 
 
 ### Parameters for Fig. 2i 
@@ -97,11 +101,12 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | |
 | **Diffusion Constant**   |  $D_{a} = 0.01$ $\mu m^2s^{-1}$  | Decrease 4000 times from baseline|
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
+| **Simulation Time** | 72 $h$ | |
 
 
 <div align="center">
   <img src="figures/nanobody_IgG.png" alt="Alt text">
-  <p><em>Figure 3: Schematic of anti-GFPnanobody and anti-GFP IgG.</em></p>
+  <p><em>Figure 3: Schematic of anti-GFP nanobody and anti-GFP IgG.</em></p>
 </div>
 
 
