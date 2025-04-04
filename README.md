@@ -119,7 +119,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 3.17 \times 10^{-6}$ $M$   | 1, 10 times |
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 7.69 \times 10^{-10}$ $M$   | |
-| **Simulation Time** | 3600 $s$ | |
+| **Simulation Time** | 1800 $s$ | |
 
 
 ### Parameters for Extended Data Figure 8 c Nanobody
@@ -130,7 +130,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 3.17 \times 10^{-5}$ $M$   | 1, 10 times |
 | **Diffusion Constant**   |  $D_{a} = 200$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 7.69 \times 10^{-10}$ $M$   | |
-| **Simulation Time** | 3600 $s$ | |
+| **Simulation Time** | 1800 $s$ | |
 
 
 
