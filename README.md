@@ -30,8 +30,8 @@ After installing Julia, you'll need to install the necessary dependencies for th
 using Pkg
 Pkg.add(["MKL", "DifferentialEquations", "Symbolics", "Peaks", "CSV", "DataFrames", "JSON", "StatsBase", "Colors", "GLMakie", "Plots",  "Interpolations"])
 ```
-## 
 We model Ab-trapping as reaction-diffusion systems (See Figure 2) which can be described by the following PDEs. 
+## 
 $$
 \begin{aligned}
 \frac{\partial c_A}{\partial t} &= D_A \nabla^2 c_A - k_{on} c_Ac_B + k_{off}c_{AB} \\
