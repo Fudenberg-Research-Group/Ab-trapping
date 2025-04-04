@@ -43,7 +43,7 @@ $$
 \end{aligned}
 $$
 
-The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial conditions, antigen was uniformly distributed in a sphere of radius $R_0=5 \mu m$ at concentration $c_B$; antibodies were distributed outside of this sphere in a concentric shell of $R_1=75 \mu m$  at concentration $c_A$. The intial concentration profiles were also smoothed. Details see Computational Methods of the draft. 
+The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial conditions, antigen was uniformly distributed in a sphere of radius $R_0=5 \mu m$ at concentration $c_B$; antibodies were distributed outside of this sphere in a concentric shell of $R_1=75 \mu m$  at concentration $c_A$. The intial concentration profiles were smoothed by parameters $\episolon$. Details see Computational Methods of the draft. 
 
 <div align="center">
   <img src="figures/Schematic2.png" alt="Alt text">
