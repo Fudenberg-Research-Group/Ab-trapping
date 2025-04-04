@@ -36,7 +36,7 @@ ps_temp = (D, k_on, k_off)
 u_init = init_concentration_3D_spherical_smoothed(rgrid, epsilon, c_a_const, c_b_const, R0)
 
 # Define ODEProblem
-t_end = 30
+t_end = figure_paras["Simulation_Time"]["t_end"]["value"]
 save_timestep = 10
 
 # Create ODE problem
