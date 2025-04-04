@@ -47,10 +47,10 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
   <p><em>Figure 2: A schematic of the reaction diffusion model of antibody staining. </em></p>
 </div>
 
-The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1.
+The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1 (1, 2, 3 ,4 represents the first, second, third, fourth figure in the Figs. 2b-e).
 
 
-### Parameters for Fig. 2b-e
+### Parameters for Figs. 2b-e
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
 | **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^9$ $M^{-1}s^{-1}$ | 1, 10, 50, 100 times, see Fig. 2b|
