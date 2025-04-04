@@ -7,20 +7,22 @@ include("utils.jl");
 
 # Set parameters
 ## Parameters unchanged in simulations 
+## Load fixed parameters from fixed_parameters.json
 fixed_paras = JSON.parsefile("../data/fixed_parameters.json")
 r_limit = fixed_paras["r_limit"]["value"]    # Maximum radial distance, unit um
 N_r = fixed_paras["N_r"]["value"]       # Number of radial grid points
 rgrid = range(0, stop=r_limit, length=N_r)
 dr = step(rgrid)
+## Construct the Laplacian operator
 mat_div = radial_laplacian_3d_Neumann(N_r, r_limit)
-## smooth parameter for the init concentration field
+## smooth parameter for the initial concentration field
 epsilon = fixed_paras["epsilon"]["value"]   
 ## Radius of the nuclues in simulations
 R0 = fixed_paras["R0"]["value"]   
  
-## Parameters changed in simulations,
+## Parameters changed in simulations
 ## Can choose difference figures for the parameters
-# Load data from parameters.json
+# Load parameters from parameters.json
 data = JSON.parsefile("../data/parameters.json")
 figure_paras = data["Fig_2b1"]
 D = figure_paras["Diffusion_Constant"]["D_a"]["value"]
@@ -48,9 +50,9 @@ ode_prob = ODEProblem(
 
 # Define the solver
 solver = Rodas5P()
-
 # Solve the ODE problem
 diffuse_spherical_sol = solve(ode_prob, solver, saveat = save_timestep)
+
 # Check results
 println("Simulation completed.")
 println(size(diffuse_spherical_sol))  # Should include time dimension

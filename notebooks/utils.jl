@@ -1,8 +1,7 @@
 
-
 # utils.jl
 
-## Simulation 
+## utils functions for simulation 
 
 function radial_laplacian_3d_Neumann(N_r, r_max)
     rd = range(0, stop=r_max, length=N_r)
@@ -89,8 +88,7 @@ function diffuse_spherical_diff(du, u, p, t)
 end
 
 
-## Visualization  
-
+## utils functions for visualization
 
 function extract_data(u_data::Vector{String}, time, indicator)
     # Step 1: Remove the square brackets and split the string by semicolons into rows
@@ -122,8 +120,8 @@ function apply_function_to_radius(radius_image, func)
 end
 
 
+## plotting colorplate
 
-####
 const tab10_colors = [
     RGB(0.121568, 0.466667, 0.705882),  # Blue
     RGB(1.000000, 0.498039, 0.054902),  # Orange
