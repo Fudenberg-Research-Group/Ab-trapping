@@ -31,6 +31,7 @@ using Pkg
 Pkg.add(["MKL", "DifferentialEquations", "Symbolics", "Peaks", "CSV", "DataFrames", "JSON", "StatsBase", "Colors", "GLMakie", "Plots",  "Interpolations"])
 ```
 
+We model Ab-trapping as reaction-diffusion systems (See Figure 2) which can be described by the following PDEs. 
 ## 
 $$
 \begin{aligned}
