@@ -43,14 +43,14 @@ $$
 \end{aligned}
 $$
 
-The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial conditions, antigen was uniformly distributed in a sphere of radius $R_0=5 \mu m$ at concentration $c_B$; antibodies were distributed outside of this sphere in a concentric shell of $R_1=75 \mu m$  at concentration $c_A$. The intial concentration profiles were smoothed by parameters $\episolon$. Details see Computational Methods of the draft. 
+where $c_A$, $c_B$ and $c_{AB}$ are the time-dependent concentration fields for antibody, antigen and the complex.The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial conditions, antigen was uniformly distributed in a sphere of radius $R_0=5 \mu m$ at concentration $c_B$; antibodies were distributed outside of this sphere in a concentric shell of $R_1=75 \mu m$  at concentration $c_A$. The intial concentration profiles were smoothed by parameters $\epsilon$. Details see Computational Methods of the draft. 
 
 <div align="center">
   <img src="figures/Schematic2.png" alt="Alt text">
   <p><em>Figure 2: A schematic of the reaction diffusion model of antibody staining. </em></p>
 </div>
 
-The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available [Differential equation solvers in Julia](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151), please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1 (1, 2, 3 ,4 represents the first, second, third, fourth subplots in the Figures2b-e).
+The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available [Differential equation solvers in Julia](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151), please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1 (where 1, 2, 3 ,4 represents the first, second, third, fourth subplots in the Figures2b-e).
 
 
 ### Parameters for Figs. 2b-e
