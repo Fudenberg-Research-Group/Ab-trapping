@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="figures/Schematic1.png" alt="Alt text">
-  <p><em>Figure 1: A schematic of the experimental protocol and the step of antibody staining.</em></p>
+  <p><em>Figure 1: Figure: Overview of the steps involved for antibody staining, including fixation, permeabilization, antibody binding, and fluorescence imaging. </em></p>
 </div>
 
 ## 📁 Folder Contents  
@@ -44,7 +44,7 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
 
 <div align="center">
   <img src="figures/Schematic2.png" alt="Alt text">
-  <p><em>Figure 2: A schematic of the reaction diffusion model of antibody staining.</em></p>
+  <p><em>Figure 2: A schematic of the reaction diffusion model of antibody staining. </em></p>
 </div>
 
 The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). 
@@ -107,7 +107,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 
 <div align="center">
   <img src="figures/nanobody_IgG.png" alt="Alt text">
-  <p><em>Figure 3: Schematic of anti-GFP nanobody and anti-GFP IgG.</em></p>
+  <p><em>Figure 3: Schematic representation of anti-GFP nanobody (monovalent) and anti-GFP IgG (bivalent).</em></p>
 </div>
 
 
