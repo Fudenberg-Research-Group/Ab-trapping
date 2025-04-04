@@ -130,7 +130,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 |----------------------|------------------------------------|------------------------------------------------------|
 | **Association Rate**  | $k_{\text{on}} = 7.68 \times 10^5$ $M^{-1}s^{-1}$ | |
 | **Dssociation Rate**   | $k_{\text{off}} = 1.74 \times 10^{-4}$ $s^{-1}$   | |
-| **Epitope concentration**   | $c_{\text{b}} = 3.17 \times 10^{-5}$ $M$   | 1, 10 times |
+| **Epitope concentration**   | $c_{\text{b}} = 3.17 \times 10^{-6}$ $M$   | 1, 10 times |
 | **Diffusion Constant**   |  $D_{a} = 200$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 7.69 \times 10^{-10}$ $M$   | |
 | **Simulation Time** | 1800 $s$ | |
