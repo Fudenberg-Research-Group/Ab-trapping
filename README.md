@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="figures/Schematic1.png" alt="Alt text">
-  <p><em>Figure 1: Figure: Overview of the steps involved for antibody staining, including fixation, permeabilization, antibody binding, and fluorescence imaging. </em></p>
+  <p><em>Figure 1: Overview of the steps involved for antibody staining, including fixation, permeabilization, antibody binding, and fluorescence imaging. </em></p>
 </div>
 
 ## 📁 Folder Contents  
@@ -15,7 +15,10 @@
 - **`notebooks/result_visualization.ipynb`** – Jupyter notebook for visualizing and analyzing simulation results. 
 - **`notebooks/utils.jl`** - Utils functions for the simulation and visualization codes.
 - **`data/parameters.json`**:  
-  Contains the simulation parameters in JSON format.
+  Contains the varied parameters between different simulations in JSON format. Can locate the parameters by name of figures, for example, Fig_2b1: the first figure in Figure 2b in the draft.
+- **`data/fixed_parameters.json`**:  
+  Contains the fixed simulation parameters through all simulations in JSON format.
+
 
 ## ⚙️ Installation & Dependencies  
 
