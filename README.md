@@ -47,7 +47,7 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
   <p><em>Figure 2: A schematic of the reaction diffusion model of antibody staining. </em></p>
 </div>
 
-The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). 
+The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1.
 
 
 ### Parameters for Fig. 2b-e
@@ -55,8 +55,8 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 |----------------------|------------------------------------|------------------------------------------------------|
 | **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^9$ $M^{-1}s^{-1}$ | 1, 10, 50, 100 times, see Fig. 2b|
 | **Dssociation Rate**   | $k_{\text{off}} = 24$ $s^{-1}$   | 1, 10, 50, 100 times, see Fig. 2c|
-| **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | 1, 10, 50, 100 times, see Fig. 2c|
-| **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | 1, 10, 50, 100 times, see Fig. 2d|
+| **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | 1, 10, 50, 100 times, see Fig. 2d|
+| **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | 1, 10, 50, 100 times, see Fig. 2e|
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
 | **Simulation Time** | 1800 $s$ | |
 
@@ -64,7 +64,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 ### Parameters for Fig. 2f
 | **Parameter**| **Value**| **Description**|
 |----------------------|------------------------------------|------------------------------------------------------|
-| **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^10$ $M^{-1}s^{-1}$ | Increase 10 times from baseline|
+| **Association Rate**  | $k_{\text{on}} = 1.6 \times 10^{10}$ $M^{-1}s^{-1}$ | Increase 10 times from baseline|
 | **Dssociation Rate**   | $k_{\text{off}} = 2.4$ $s^{-1}$   | Decrease 10 times from baseline|
 | **Epitope concentration**   | $c_{\text{b}} = 12.68 \times 10^{-5}$ $M$   | Increase 2 times from baseline|
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
