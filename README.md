@@ -91,7 +91,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | |
 | **Diffusion Constant**   |  $D_{a} = 40$ $\mu m^2s^{-1}$  | |
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
-| **Simulation Time** | 72 $h$ | |
+| **Simulation Time** | 72 $h$ | Ultralong staining time simulation|
 
 
 ### Parameters for Fig. 2i 
@@ -102,7 +102,7 @@ The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenb
 | **Epitope concentration**   | $c_{\text{b}} = 6.34 \times 10^{-5}$ $M$   | |
 | **Diffusion Constant**   |  $D_{a} = 0.01$ $\mu m^2s^{-1}$  | Decrease 4000 times from baseline|
 | **Antibody concentration**   | $c_{\text{a}} = 1.328 \times 10^{-8}$ $M$   | |
-| **Simulation Time** | 72 $h$ | |
+| **Simulation Time** | 72 $h$ | Ultralong staining time simulation|
 
 
 <div align="center">
