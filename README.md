@@ -13,7 +13,7 @@
 
 - **`notebooks/antibody_simulation.jl`** – Main simulation script implementing the reaction-diffusion model.  
 - **`notebooks/result_visualization.ipynb`** – Jupyter notebook for visualizing and analyzing simulation results. 
-- ** `notebooks/utils.jl`** - Utils functions for the simulation and visualization codes.
+- **`notebooks/utils.jl`** - Utils functions for the simulation and visualization codes.
 - **`data/parameters.json`**:  
   Contains the simulation parameters in JSON format.
 
