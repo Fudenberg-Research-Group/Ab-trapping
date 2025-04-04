@@ -674,21 +674,20 @@
       "k_on": {
         "value": 4.8e9,
         "unit": "M^-1 s^-1",
-        "description": "Increase 10 times from baseline"
+        "description": "Increase 3 times from baseline"
       }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value":  8,
         "unit": "s^-1",
-        "description": "Decrease 10 times from baseline"
+        "description": "Increase 3 times from baseline"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
-        "description": "Increase 2 times from baseline"
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
@@ -716,21 +715,19 @@
       "k_on": {
         "value": 1.6e11,
         "unit": "M^-1 s^-1",
-        "description": "Increase 10 times from baseline"
+        "description": "Increase 100 times from baseline"
       }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
-        "description": "Decrease 10 times from baseline"
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
-        "description": "Increase 2 times from baseline"
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
@@ -757,22 +754,19 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
-        "description": "Increase 10 times from baseline"
+        "unit": "M^-1 s^-1"
       }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
-        "description": "Decrease 10 times from baseline"
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
-        "description": "Increase 2 times from baseline"
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
@@ -795,26 +789,62 @@
     }
   }, 
   
-  "Fig_8c_igG": {
+  "Fig_8c_igG1": {
     "Association_Rate": {
       "k_on": {
         "value": 7.68e6,
-        "unit": "M^-1 s^-1",
-        "description": "Increase 10 times from baseline"
+        "unit": "M^-1 s^-1"
       }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 1.74e-5,
-        "unit": "s^-1",
-        "description": "Decrease 10 times from baseline"
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 3.17e-6,
-        "unit": "M",
-        "description": "Increase 2 times from baseline"
+        "unit": "M"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 40,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 7.69e-10,
+        "unit": "M"
+      }
+    },
+     "Simulation_Time":{
+        "t_end":{
+          "value": 1800,
+          "unit": "s"
+      }
+    }
+  }, 
+
+  "Fig_8c_igG2": {
+    "Association_Rate": {
+      "k_on": {
+        "value": 7.68e6,
+        "unit": "M^-1 s^-1"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 1.74e-5,
+        "unit": "s^-1"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 3.17e-5,
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
@@ -837,26 +867,62 @@
     }
   }, 
    
-   "Fig_8c_nanobody": {
+  "Fig_8c_nanobody1": {
     "Association_Rate": {
       "k_on": {
         "value": 7.68e5,
-        "unit": "M^-1 s^-1",
-        "description": "Increase 10 times from baseline"
+        "unit": "M^-1 s^-1"
       }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 1.74e-4,
-        "unit": "s^-1",
-        "description": "Decrease 10 times from baseline"
+        "unit": "s^-1"
+      }
+    },
+    "Epitope_Concentration": {
+      "c_b": {
+        "value": 3.17e-6,
+        "unit": "M"
+      }
+    },
+    "Diffusion_Constant": {
+      "D_a": {
+        "value": 200,
+        "unit": "μm^2 s^-1"
+      }
+    },
+    "Antibody_Concentration": {
+      "c_a": {
+        "value": 7.69e-10,
+        "unit": "M"
+      }
+    },
+    "Simulation_Time":{
+        "t_end":{
+          "value": 1800,
+          "unit": "s"
+      }
+    }
+  },
+  
+  "Fig_8c_nanobody2":{
+    "Association_Rate": {
+      "k_on": {
+        "value": 7.68e5,
+        "unit": "M^-1 s^-1"
+      }
+    },
+    "Dissociation_Rate": {
+      "k_off": {
+        "value": 1.74e-4,
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 3.17e-5,
-        "unit": "M",
-        "description": "Increase 2 times from baseline"
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
