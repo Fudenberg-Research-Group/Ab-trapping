@@ -15,7 +15,7 @@
 - **`notebooks/result_visualization.ipynb`** – Jupyter notebook for visualizing and analyzing simulation results. 
 - **`notebooks/utils.jl`** - Utils functions for the simulation and visualization codes.
 - **`data/parameters.json`**:  
-  Contains the varied parameters between different simulations in JSON format. Can locate the parameters by name of figures, for example, Fig_2b1: the first figure in Figure 2b in the draft.
+  Contains the varied parameters between different simulations in JSON format. Can locate the parameters by name of figures, for example, Fig_2b1: the first subplot in Figure 2b in the draft.
 - **`data/fixed_parameters.json`**:  
   Contains the fixed simulation parameters through all simulations in JSON format.
 
@@ -24,7 +24,7 @@
 
 Make sure you have [Julia](https://julialang.org/downloads/) installed on your system along with the required packages. You can install dependencies using:  
 
-After installing Julia, you'll need to install the necessary dependencies for this project. You can do so by running the following commands in the Julia REPL:
+After installing Julia, you'll need to install the necessary dependencies for this project. You can do so in [VSCODE](https://code.visualstudio.com/) or in terminal by running the following commands in the Julia REPL:
 
 1. Open Julia by typing `julia` in your terminal or using the Julia application.
 2. Install the required packages by running:
@@ -50,7 +50,7 @@ The diffusion coefficient $D_B$ and $D_{AB}$ were set to be zero. For initial co
   <p><em>Figure 2: A schematic of the reaction diffusion model of antibody staining. </em></p>
 </div>
 
-The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1 (1, 2, 3 ,4 represents the first, second, third, fourth figure in the Figs. 2b-e).
+The solver used in this project is Rosa5P which is a fifth-order A-stable Rosenbrock method. For a comprehensive list of available solvers in Julia, please refer to the  [DiffEqDocs documentation](https://docs.sciml.ai/DiffEqDocs/stable/solvers/ode_solve/). To run the code for each figure, simply replace the figure name in Line 27 of **`antibody_simulation.jl`** with the desired figure name, such as Fig_2b1 (1, 2, 3 ,4 represents the first, second, third, fourth subplots in the Figures2b-e).
 
 
 ### Parameters for Figs. 2b-e
