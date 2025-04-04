@@ -8,15 +8,16 @@ include("utils.jl");
 # Set parameters
 
 ## Parameters unchanged in simulations 
-r_limit = 75    # Maximum radial distance, unit um
-N_r = 7500      # Number of radial grid points
+fixed_paras = JSON.parsefile("fixed_parameters.json")
+r_limit = fixed_paras["r_limit"]["value"]    # Maximum radial distance, unit um
+N_r = fixed_paras["N_r"]["value"]       # Number of radial grid points
 rgrid = range(0, stop=r_limit, length=N_r)
 dr = step(rgrid)
 mat_div = radial_laplacian_3d_Neumann(N_r, r_limit)
 ## smooth parameter for the init concentration field
-epsilon = 0.2
+epsilon = fixed_paras["epsilon"]["value"]   
 ## Radius of the nuclues in simulations
-R0 = 5
+R0 = fixed_paras["R0"]["value"]   
  
 ## Parameters changed in simulations,
 ## Can choose difference figures for the parameters
@@ -37,7 +38,7 @@ u_init = init_concentration_3D_spherical_smoothed(rgrid, epsilon, c_a_const, c_b
 
 # Define ODEProblem
 t_end = figure_paras["Simulation_Time"]["t_end"]["value"]
-save_timestep = 10
+save_timestep = fixed_paras["save_timestep"]["value"]   
 
 # Create ODE problem
 ode_prob = ODEProblem(
