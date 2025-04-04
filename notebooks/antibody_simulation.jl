@@ -17,13 +17,13 @@ mat_div = radial_laplacian_3d_Neumann(N_r, r_limit)
 epsilon = 0.2
 ## Radius of the nuclues in simulations
 R0 = 5
-
+ 
 ## Parameters changed in simulations,
 ## Can choose difference figures for the parameters
 # Load data from parameters.json
 data = JSON.parsefile("parameters.json")
 
-figure_paras = data["Fig_2b"]
+figure_paras = data["Fig_2b1"]
 D = figure_paras["Diffusion_Constant"]["D_a"]["value"]
 k_on = figure_paras["Association_Rate"]["k_on"]["value"]
 k_off = figure_paras["Dissociation_Rate"]["k_off"]["value"]
