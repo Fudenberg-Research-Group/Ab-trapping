@@ -6,7 +6,6 @@ using SparseArrays
 include("utils.jl");
 
 # Set parameters
-
 ## Parameters unchanged in simulations 
 fixed_paras = JSON.parsefile("../data/fixed_parameters.json")
 r_limit = fixed_paras["r_limit"]["value"]    # Maximum radial distance, unit um
@@ -23,7 +22,6 @@ R0 = fixed_paras["R0"]["value"]
 ## Can choose difference figures for the parameters
 # Load data from parameters.json
 data = JSON.parsefile("../data/parameters.json")
-
 figure_paras = data["Fig_2b1"]
 D = figure_paras["Diffusion_Constant"]["D_a"]["value"]
 k_on = figure_paras["Association_Rate"]["k_on"]["value"]
