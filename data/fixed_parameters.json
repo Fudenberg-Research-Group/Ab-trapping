@@ -22,7 +22,7 @@
     "unit": "um"
   },
   "save_timestep": {
-    "value": 10,
+    "value": 100,
     "description": "Time step interval for saving simulation data",
     "unit": "s"
   }

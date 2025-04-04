@@ -1,29 +1,28 @@
 
-
 {
   "Fig_2b1": {
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -39,30 +38,30 @@
       }
     }
   },
-   
+
   "Fig_2b2": {
     "Association_Rate": {
       "k_on": {
         "value": 1.6e10,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -83,25 +82,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 8e10,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -122,25 +121,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e11,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1", 
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M", 
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -161,25 +160,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -200,25 +199,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 2.4,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -239,25 +238,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 0.48,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -278,25 +277,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 0.24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -318,25 +317,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -358,25 +357,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-4,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -397,25 +396,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 3.17e-3,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -436,25 +435,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-3,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -475,25 +474,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 40,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -514,25 +513,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 4,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -553,25 +552,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 0.8,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
@@ -592,25 +591,25 @@
     "Association_Rate": {
       "k_on": {
         "value": 1.6e9,
-        "unit": "M^-1 s^-1",
+        "unit": "M^-1 s^-1"
         }
     },
     "Dissociation_Rate": {
       "k_off": {
         "value": 24,
-        "unit": "s^-1",
+        "unit": "s^-1"
       }
     },
     "Epitope_Concentration": {
       "c_b": {
         "value": 6.34e-5,
-        "unit": "M",
+        "unit": "M"
       }
     },
     "Diffusion_Constant": {
       "D_a": {
         "value": 0.4,
-        "unit": "μm^2 s^-1",
+        "unit": "μm^2 s^-1"
       }
     },
     "Antibody_Concentration": {
